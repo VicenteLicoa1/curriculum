@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+    
+}
+body{
+    background-color: rgba(255, 255, 255, 0.466);
+    display: flex;
+    height: auto;
+    
+
+} 
+
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.padre1{
+    background-color: rgba(18, 65, 18, 0.856);
+    width: 90rem;
+    
+    
+
+}
+.padre1 .hijo2 img {
+    margin: 20px 35px 20px ;
+}
+.padre2{
+    display: flex;
+    background-color:rgba(222, 184, 135, 0.24);
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #f7f7f7ec;
+}
+
+.hijo2 ul li{
+    padding: 5px 0;
+    display: flex;
+    color: white;
+    font-size: larger;
+    
+}
+li:not(.css){
+    margin-bottom: 15px;
+}
+
+.imagen{
+    border-radius: 100%;
+    flex: 1;  
+
+
+}
+
+.tit1{
+    font-size: 50px;
+    margin-left: 65px;
+    line-height: 10px;
+    margin-top: 2rem;
+}
+.tit{
+    font-size: 50px;
+    margin-left: 42px;
+}
+
+.exp{
+    margin-left: 105px;
+    font-size: 50px;
+}
+.hijo2 ul li i{
+    margin-right:10px;
+
+}
+
+.hijo2{
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 100px not(css);
+    flex: 1; 
+}
+
+.nombre{
+    margin-top: 50px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carrera{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+div{
+    margin-top: 1px;    
+} 
+p{
+    flex: 1;
+    margin-left: 50px;
+    font-size: 20px;
+    padding:  20px 100px;
+    line-height: 30px;
+}
+
+
+.hijo2 > li > a {
+    display: flex;
+    padding: 15px 20px;
+    color: #353535;
+    font-family:"Monserrat",sans-serif;
+    text-decoration: none;  
+
+}
+
